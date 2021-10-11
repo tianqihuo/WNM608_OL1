@@ -43,6 +43,15 @@
 					<li><a href="#navigations">Navigations</a></li>
 					<li><a href="#gridsystem">Grid System</a></li>
 					<li><a href="#flexsystem">Flex System</a></li>
+					<li><a href="#flexsystem">Tables</a></li>
+					<li><a href="#flexsystem">Forms</a></li>
+					<ul>
+						<li><a href="#inputs">Inputs</a></li>
+						<li><a href="#labels">Labels</a></li>
+						<li><a href="#controls">Controls</a></li>
+						<li><a href="#buttons">Buttons</a></li>
+						<li><a href="#buttons">Hotdog</a></li>
+					</ul>
 				</ul>
 			</nav>
 		</div>
@@ -358,6 +367,126 @@
 					</figure>
 				</div>
 			</div>
+	</div>
+
+	<div class="container" id="forms">
+		<h2>Forms</h2>
+
+		<h3>Inputs</h3>
+
+		<div class="card soft">
+			<h3>Default Inputs</h3>
+			<form>
+				<input type="text"><br>
+				<input type="number"><br>
+				<input type="password"><br>
+				<input type="url"><br>
+				<input type="email"><br>
+				<input type="datetime-local"><br>
+				<input type="date"><br>
+				<input type="search"><br>
+			</form>
+
+			<h3>Form Input</h3>
+			<form>
+				<input type="text" placeholder="Text" class="form-input">
+				<input type="number" placeholder="Number" class="form-input">
+				<input type="password" placeholder="Password" class="form-input">
+				<input type="search" placeholder="Search" class="form-input">
+			</form>
+
+			<h3>Form Label</h3>
+			<form>
+				<label class="form-label">Example</label>
+				<input type="text" placeholder="Text" class="form-input">
+				<label class="form-label">Example</label>
+				<input type="number" placeholder="Number" class="form-input">
+				<label class="form-label">Example</label>
+				<input type="password" placeholder="Password" class="form-input">
+				<label class="form-label">Example</label>
+				<input type="search" placeholder="Search" class="form-input">
+			</form>
+
+			<h3>Form Control</h3>
+			<form>
+				<div class="form-control">
+					<label class="form-label">Example</label>
+					<input type="text" placeholder="Text" class="form-input">
+				</div>
+				<div class="form-control">
+					<label class="form-label">Example</label>
+					<input type="number" placeholder="Number" class="form-input">
+				</div>
+				<div class="form-control">
+					<label class="form-label">Example</label>
+					<input type="password" placeholder="Password" class="form-input">
+				</div>
+				<div class="form-control display-flex flex-align-center">
+					<div class="flex-none">
+						<label class="form-label">Example</label>
+					</div >
+					<div class="flex-stretch">
+						<input type="search" placeholder="Search" class="form-input flex-stretch">
+					</div>
+					<div class="flex-none">
+						<label class="form-label">Example</label>
+					</div>
+					<div class="flex-stretch">
+						<input type="search" placeholder="Search" class="form-input flex-stretch">
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<h3>Buttons</h3>
+
+		<div class="card soft">
+			<h3>Default Buttons</h3>
+
+			<button>Button</button>
+
+			<h3>Form Buttons</h3>
+
+			<div class="form-control">
+				<button type="button" class="form-button">Button</button>
+			</div>
+			<div class="form-control">
+				<input type="button" class="form-button" value="Input">
+			</div>
+			<div class="form-control">
+				<a href="#" class="form-button">Anchor</a>
+			</div>
+		</div>
+
+		<h2>Hotdog</h2>
+
+		<div class="card soft">
+			<div class="form-control">
+				<form>
+					<input type="search" class="hotdog" placeholder="Search">
+				</form>
+			</div>
+			<div class="form-control">
+				<form>
+					<input type="search" class="hotdog dark" placeholder="Search">
+				</form>
+			</div>
+			<div class="form-control">
+				<form class="card dark">
+					<input type="search" class="hotdog light" placeholder="Search">
+				</form>
+			</div>
+			<div class="form-control">
+				<form class="hotdog">
+					<span>&equiv;</span>
+					<input type="search" placeholder="Search">
+				</form>
+				<form class="hotdog">
+					<input type="search" placeholder="Search">
+					<span>&equiv;</span>
+				</form>
+			</div>
+		</div>
 	</div>
 
 </body>
