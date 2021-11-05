@@ -1,15 +1,27 @@
 
 :root {
-	--color-offwhite: #f4f4f4;
+	--color-offwhite: #eee3d7;
 
-	--color-main-light: lightblue;
-    --color-main-medium: blue;
-    --color-main-dark: darkblue;
+	--color-main-light: #eee3d7;
+    --color-main-medium: #d0a489;
+    --color-main-dark: #716557;
 }
 
 body {
 	background-color:var(--color-offwhite);
-	padding-bottom: 4em;
+	padding-bottom: 10em;
+}
+
+.favorite label {
+	transition: all 0.3s;
+	display: inline-block;
+	transform: scale(1,1);
+	color: var(--color-neutral-medium);
+}
+
+.favorite input:checked + label {
+	color: red;
+	transform: scale(1.5,1.5);
 }
 
 

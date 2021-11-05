@@ -39,10 +39,9 @@
 						<li><a href="#paragraphs">Paragraphs</a></li>
 					</ul>
 					<li><a href="#cards">Cards</a></li>
-					<li><a href="#viewwindow">View Window</a></li>
 					<li><a href="#navigations">Navigations</a></li>
-					<li><a href="#gridsystem">Grid System</a></li>
-					<li><a href="#flexsystem">Flex System</a></li>
+					<li><a href="#gridsystem">Colors</a></li>
+					<li><a href="#gridsystem">Product Grid</a></li>
 					<li><a href="#flexsystem">Tables</a></li>
 					<li><a href="#flexsystem">Forms</a></li>
 					<ul>
@@ -101,11 +100,6 @@
 				<div class="card medium">Card Medium</div>
 			</div>
 		</div>
-	</div>
-
-
-	<div class="container">
-		<h2>View Window</h2>
 	</div>
 
 
@@ -179,13 +173,144 @@
 
 
 	<div class="container">
-		<h2>Grid System</h2>
+		<h2>Product Grid</h2>
+		<div class="card soft">
+			<h3>Product Grid</h3>
+
+			<div class="grid gap">
+				<div class="col-xs-12 col-md-4">
+					<figure class="figure product">
+						<img src="https://via.placeholder.com/400x400?text=product"alt="">
+						<figcaption>
+							<div>Product Name</div>
+							<div>$3.99</div>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-xs-12 col-md-4">
+					<figure class="figure product">
+						<img src="https://via.placeholder.com/400x400?text=product"alt="">
+						<figcaption>
+							<div>Product Name</div>
+							<div>$3.99</div>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-xs-12 col-md-4">
+					<figure class="figure product">
+						<img src="https://via.placeholder.com/400x400?text=product"alt="">
+						<figcaption>
+							<div>Product Name</div>
+							<div>$3.99</div>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+
+
+<div class="container">
+	<h2 id="product-grid">Product Grid</h2>
+		<div class="grid gap">
+			<div class="col-xs-12 col-md-4">
+				<figure class="figure product">
+					<img src="../img/product_1.jpg" alt="">
+					<figcaption>
+						<h4>Hydrangea With Vase</h4>
+						<div>18.99</div>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<figure class="figure product">
+					<img src="../img/product_2.jpg" alt="">
+					<figcaption>
+						<h4>Dry flower Wreath</h4>
+						<div>$15.99</div>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<figure class="figure product">
+					<img src="../img/product_3.jpg" alt="">
+					<figcaption>
+						<h4>Pampas Grass and Eucalyptus</h4>
+						<div>$17.99</div>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
 	</div>
+
+
+			<h3>Product Overlay</h3>
+
+			<div class="grid gap">
+				<div class="col-xs-12 col-md-4">
+					<figure class="figure product-overlay">
+						<img src="https://via.placeholder.com/400x400?text=product"alt="">
+						<figcaption>
+							<div class="caption-body">
+								<div>Product Name</div>
+								<div>$3.99</div>
+							</div>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-xs-12 col-md-4">
+					<figure class="figure product-overlay">
+						<img src="https://via.placeholder.com/400x400?text=product"alt="">
+						<figcaption>
+							<div class="caption-body">
+								<div>Product Name</div>
+								<div>$3.99</div>
+							</div>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-xs-12 col-md-4">
+					<figure class="figure product-overlay">
+						<img src="https://via.placeholder.com/400x400?text=product"alt="">
+						<figcaption>
+							<div class="caption-body">
+								<div>Product Name</div>
+								<div>$3.99</div>
+							</div>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
 
 	<div class="container">
-		<h2>Flex System</h2>
+		<div id="colors" class="container">
+			<h2>Colors</h2>
+				<h3>Primary Colors</h3>
+					<div class="grid gap">
+						<div class="col-xs-12 col-md-4 card2">
+							<figure class="figure">
+								<p class="color_1"></p>
+								<figcaption>#b8aea8</figcaption>
+							</figure>
+						</div>
+						<div class="col-xs-12 col-md-4 card2">
+							<figure class="figure">
+								<p class="color_2"></p>
+								<figcaption>#d0a489</figcaption>
+							</figure>
+						</div>
+						<div class="col-xs-12 col-md-4 card2">
+							<figure class="figure">
+								<p class="color_3"></p>
+								<figcaption>#898c6c</figcaption>
+							</figure>
+						</div>
+					</div>
+		</div>
 	</div>
-
 
 	<script>
 	const makeTable = (classes='') => {
@@ -266,108 +391,10 @@
 				<img src="https://via.placeholder.com/400x400?text=product"alt="">
 				<figcaption>Product</figcaption>
 			</figure>
-
 		</div>
 
-		<h3>Figure Grid</h3>
 
-			<div class="grid gap">
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure">
-						<img src="https://via.placeholder.com/400x400?text=product"alt="">
-						<figcaption>Product</figcaption>
-					</figure>
-				</div>
 
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure">
-						<img src="https://via.placeholder.com/400x400?text=product"alt="">
-						<figcaption>Product</figcaption>
-					</figure>
-				</div>
-
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure">
-						<img src="https://via.placeholder.com/400x400?text=product"alt="">
-						<figcaption>Product</figcaption>
-					</figure>
-				</div>
-			</div>
-
-			<h3>Product Grid</h3>
-
-			<div class="grid gap">
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure product">
-						<img src="https://via.placeholder.com/400x400?text=product"alt="">
-						<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
-						</figcaption>
-					</figure>
-				</div>
-
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure product">
-						<img src="https://via.placeholder.com/400x400?text=product"alt="">
-						<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
-						</figcaption>
-					</figure>
-				</div>
-
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure product">
-						<img src="https://via.placeholder.com/400x400?text=product"alt="">
-						<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
-
-			<h3>Product Overlay</h3>
-
-			<div class="grid gap">
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure product-overlay">
-						<img src="https://via.placeholder.com/400x400?text=product"alt="">
-						<figcaption>
-							<div class="caption-body">
-								<div>Product Name</div>
-								<div>$3.99</div>
-							</div>
-						</figcaption>
-					</figure>
-				</div>
-
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure product-overlay">
-						<img src="https://via.placeholder.com/400x400?text=product"alt="">
-						<figcaption>
-							<div class="caption-body">
-								<div>Product Name</div>
-								<div>$3.99</div>
-							</div>
-						</figcaption>
-					</figure>
-				</div>
-
-				<div class="col-xs-12 col-md-4">
-					<figure class="figure product-overlay">
-						<img src="https://via.placeholder.com/400x400?text=product"alt="">
-						<figcaption>
-							<div class="caption-body">
-								<div>Product Name</div>
-								<div>$3.99</div>
-							</div>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
-	</div>
 
 	<div class="container" id="forms">
 		<h2>Forms</h2>
@@ -481,10 +508,69 @@
 					<span>&equiv;</span>
 					<input type="search" placeholder="Search">
 				</form>
+			</div>
+			<div class="form-control">
 				<form class="hotdog">
 					<input type="search" placeholder="Search">
 					<span>&equiv;</span>
 				</form>
+			</div>
+		</div>
+
+		<h2 id="select">Select</h2>
+
+		<div class="card soft">
+			<div class="form-select">
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select>
+			</div>
+			<div class="display-flex">
+				<div class="flex-stretch"></div>
+				<div class="flex-none">
+					<div class="form-select">
+						<select>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h2 id="checkboxes">Check Boxes</h2>
+
+		<div class="card soft">
+			<h3>Basic Checkbox</h3>
+			<label>Label <input type="checkbox" id="input-1"></label>
+			<label for="input-1">Label</label>
+
+			<h3>Heart Checkbox</h3>
+			<div class="favorite">
+				<input type="checkbox" id="heart-example" class="hidden">
+				<label for="heart-example">&hearts;</label>
+			</div>
+
+			<h3>Toggle</h3>
+			<div class="toggle">
+				<input type="checkbox" id="toggle-1" class="hidden">
+				<label for="toggle-1"></label>
+			</div>
+			<div class="display-flex flex-align-center">
+				<div class="flex-stretch">
+					<label for="toggle-2" class="form-label">Display Warning?</label>
+				</div>
+				<div class="flex-none">
+					<div class="toggle" style="font-size:2em">
+						<input type="checkbox" id="toggle-2" class="hidden">
+						<label for="toggle-2"></label>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
