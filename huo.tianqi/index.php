@@ -21,7 +21,7 @@
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="../img/product_1.jpg"alt="">
+							<img src="img/1.jpg"alt="">
 							<figcaption>
 							<div>Product Name</div>
 							<div>$3.99</div>
