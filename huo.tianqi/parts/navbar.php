@@ -1,3 +1,8 @@
+<?php
+
+include_once "lib/php/functions.php";
+
+?>
 
 <!-- header>h1+p -->
 	<header class="navbar">
@@ -11,7 +16,7 @@
 	        <nav class="flex-none nav">
 				<ul class="container display-flex">
 					<li><a href="#article1">Login</a></li>
-					<li><a href="#article2">Cart</a></li>
+					<!-- <li><a href="product_cart.php">Cart</a></li> -->
 				</ul>
 			</nav>
 	    </div>
@@ -23,6 +28,10 @@
 					<li><a href="product_list.php?id=2">Store</a></li>
 					<li><a href="about_us.php?id=3">About Us</a></li>
 					<li><a href="help.php?id=4">Help</a></li>
+					<li><a href="product_cart.php">
+						<span>Cart</span>
+						<span class = "badge"><?= makeCartBadge(); ?></span>
+					</a></li>
 				</ul>
 			</nav>
 			<div class="flex-stretch"></div>

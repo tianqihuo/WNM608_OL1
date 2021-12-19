@@ -32,7 +32,7 @@
 
 
     // Boolean
-    $isOn = ture;
+    // $isOn = ture;
 
 
     // Math
@@ -51,8 +51,8 @@
     <div>
     <?php
 
-    $firstname = Tianqi;
-    $lastname = Huo;
+    $firstname = "Tianqi";
+    $lastname = "Huo";
     $fullname = "$firstname $lastname";
 
     echo $fullname;
@@ -64,7 +64,7 @@
 
     // superglobal
     // ?name=Tianqi
-    echo "<a href='?name=Tianqi'>visit</a><br>";
+    echo "<a href='?name=Tianqi&type=button'>visit</a><br>";
     echo "<div>My name is {$_GET['name']}</div>";
 
 
@@ -107,7 +107,7 @@
     	"blue" => "#00f"
     ];
 
-    echo $colorsAssociative['green']
+    echo $colorsAssociative['green'];
 
     ?>
 

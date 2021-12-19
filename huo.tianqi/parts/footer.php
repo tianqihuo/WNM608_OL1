@@ -1,5 +1,4 @@
 
-<footer>
     <?php include "parts/meta.php"; ?>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,5 +14,5 @@
                 <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
             </ul>
             <p class="copyright">Copyright Florist Market © 2021 by Tianqi Huo. All Rights Reserved.</p>
-        <footer>
+        </footer>
     </div>

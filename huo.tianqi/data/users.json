@@ -1,0 +1,32 @@
+[
+	{
+		"name":"Tianqi Huo",
+		"type":"Student",
+		"email":"tianqi@gmail.com",
+		"classes":[608,617,820]
+	},
+	{
+		"name":"Yuki",
+		"type":"Designer",
+		"email":"yuki@gmail.com",
+		"classes":[608,617,820]
+	},
+	{
+		"name":"Mandy",
+		"type":"Housewife",
+		"email":"mandy@gmail.com",
+		"classes":[608,617,820]
+	},
+	{
+		"name":"Zoe",
+		"type":"Artist",
+		"email":"reenie199015@gmail.com",
+		"classes":[608,617,820]
+	},
+	{
+		"name":"Keita",
+		"type":"Teacher",
+		"email":"keita@gmail.com",
+		"classes":[608,617,820]
+	}
+]

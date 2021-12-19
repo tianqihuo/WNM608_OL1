@@ -1,3 +1,10 @@
+<?php
+
+include_once "lib/php/functions.php";
+include_once "parts/templates.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +17,8 @@
 
 	<?php include "parts/navbar.php"; ?>
 
-	<div class="view-window" style="background-image: url('img/flower.jpg')"></div>
+
+	<div class="view-window" style="background-image: url('img/window.jpg')"></div>
 
 
 		<div class="container">
@@ -21,30 +29,30 @@
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="img/1.jpg"alt="">
+							<img src="img/product_1.jpg"alt="">
 							<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
+							<div>Snow Bloom Bouquet</div>
+							<div>$35.00</div>
 							</figcaption>
 						</figure>
 					</div>
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="https://via.placeholder.com/400x400?text=product"alt="">
+							<img src="img/product_2.jpg"alt="">
 							<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
+							<div>Blue Dream Bouquet</div>
+							<div>$40.00</div>
 							</figcaption>
 						</figure>
 					</div>
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="https://via.placeholder.com/400x400?text=product"alt="">
+							<img src="img/product_3.jpg"alt="">
 							<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
+							<div>Autumn Glow Bouquet</div>
+							<div>$42.00</div>
 							</figcaption>
 						</figure>
 					</div>
@@ -61,30 +69,30 @@
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="https://via.placeholder.com/400x400?text=product"alt="">
+							<img src="img/product_4.jpg"alt="">
 							<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
+							<div>Hope & Serenity Bouquet</div>
+							<div>$37.50</div>
 							</figcaption>
 						</figure>
 					</div>
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="https://via.placeholder.com/400x400?text=product"alt="">
+							<img src="img/product_5.jpg"alt="">
 							<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
+							<div>Heaven Wreath</div>
+							<div>$46.50</div>
 							</figcaption>
 						</figure>
 					</div>
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="https://via.placeholder.com/400x400?text=product"alt="">
+							<img src="img/product_6.jpg"alt="">
 							<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
+							<div>Harvest Setaria Bouquet</div>
+							<div>$39.00</div>
 							</figcaption>
 						</figure>
 					</div>
@@ -102,30 +110,30 @@
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="https://via.placeholder.com/400x400?text=product"alt="">
+							<img src="img/product_7.jpg"alt="">
 							<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
+							<div>Marmalade Skies Bouquet</div>
+							<div>$36.00</div>
 							</figcaption>
 						</figure>
 					</div>
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="https://via.placeholder.com/400x400?text=product"alt="">
+							<img src="img/product_8.jpg"alt="">
 							<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
+							<div>Blush Crush Bouquet</div>
+							<div>$55.50</div>
 							</figcaption>
 						</figure>
 					</div>
 
 					<div class="col-xs-12 col-md-4">
 						<figure class="figure product">
-							<img src="https://via.placeholder.com/400x400?text=product"alt="">
+							<img src="img/product_9.jpg"alt="">
 							<figcaption>
-							<div>Product Name</div>
-							<div>$3.99</div>
+							<div>White Petals Rosalea Bouquet</div>
+							<div>$52.50</div>
 							</figcaption>
 						</figure>
 					</div>
@@ -133,6 +141,17 @@
 				</div>
 			</div>
 		</div>
+
+<!-- 		<div class="container">
+			<?php
+
+			$result = makeQuery(makeConn(),"SELECT * FROM `FloristMarket_Product` WHERE 'id' ORDER BY 'date_create' DESC LIMIT 3");
+			print_p($result);
+			recomendedProducts($result);
+
+			?>
+
+		</div> -->
 
 	<!-- Footer -->
 	<?php include "parts/footer.php"; ?>
